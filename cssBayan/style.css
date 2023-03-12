@@ -64,7 +64,6 @@
     background-size: 50% 4px,4px 50%; 
     background-repeat:no-repeat;
 }
-
 .row-2:hover >.tape{
     position: absolute;
     z-index: 21;
