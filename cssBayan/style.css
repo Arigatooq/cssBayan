@@ -20,6 +20,9 @@
     width: 100%;
 }
 
+img{
+    transition: 0.7s;
+}
 
 @keyframes show{
     0% {transform:rotate(-45deg)}
@@ -34,7 +37,7 @@
     height: 42vh;
 }
 .row-2 > img{
-    display: none;
+    height: 0;
 }
 .row-2:hover > img{
     display: inline;
@@ -76,7 +79,7 @@
     border-color: #E95557 #E95557 transparent;
 }
 .row-3 > img{
-    display: none;
+   height: 0;
 }
 .row-3:hover > .plus{
     visibility: hidden;
@@ -100,7 +103,7 @@
     height: 42vh;
 }
 .row-4 > img{
-    display: none;
+    height: 0;
 }
 .row-4:hover > img{
     margin-left: 26%;
@@ -128,7 +131,7 @@
     border-color: #E95557 #E95557 transparent;
 }
 .row-5 > img{
-    display: none;
+    height: 0;
   }
 .row-5:hover > img{
     display: inline;
@@ -242,7 +245,7 @@
     background-repeat:no-repeat;
  }
  .row-1:active > img{
-    display: none;
+    height: 0;
     transition: 0.4s;
  }
  .row-1:active{
