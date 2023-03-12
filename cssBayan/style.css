@@ -1,0 +1,266 @@
+*{
+    background: whitesmoke;
+}
+
+.screen{
+    position: relative;
+    height: 1920px;
+    width: 1080px;
+    margin: 0 auto;
+}
+.screen > h2{
+    font-size: 2.3em;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+ h3 {
+    position: relative;
+    font-size: 2em;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    width: 100%;
+}
+
+img{
+    transition: 0.7s;
+}
+
+@keyframes show{
+    0% {transform:rotate(-45deg)}
+    50%{transform:rotate(-135deg)}
+    100%{transform:rotate(-225deg)}
+}
+
+.row-1 > img{  
+    display: inline;
+    margin-left: 26%;
+    width: 42vh;
+    height: 42vh;
+}
+.row-2 > img{
+    height: 0;
+}
+.row-2:hover > img{
+    display: inline;
+    margin-left: 26%;
+    width: 42vh;
+    height: 42vh;
+}
+.row-2:hover > .plus{
+    visibility: hidden;
+}
+.row-1:active > .tape{
+    visibility: hidden;
+}
+.row-1:active > .plus{
+    animation: show 2s;
+    position: absolute;
+    width:50px;
+    height:50px;
+    margin-left: 1020px;
+    margin-top: -5px;
+    z-index: 1;
+    background:
+      linear-gradient(#000,#000),
+      linear-gradient(#000,#000),
+      whitesmoke;
+    background-position:center;
+    background-size: 50% 4px,4px 50%; 
+    background-repeat:no-repeat;
+}
+.row-2:hover >.tape{
+    position: absolute;
+    z-index: 21;
+    margin-left: 1030px;
+    margin-top: 20px;
+    width: 0; 
+    height: 0; 
+    border-width: 25px 15px 20px;
+    border-style: solid;
+    border-color: #E95557 #E95557 transparent;
+}
+.row-3 > img{
+   height: 0;
+}
+.row-3:hover > .plus{
+    visibility: hidden;
+}
+.row-3:hover >.tape{
+    position: absolute;
+    z-index: 21;
+    margin-left: 1030px;
+    margin-top: 20px;
+    width: 0; 
+    height: 0; 
+    border-width: 25px 15px 20px;
+    border-style: solid;
+    border-color: #E95557 #E95557 transparent;
+}
+.row-3:hover > img{
+    transition-duration: 1s;
+    display: inline;
+    margin-left: 26%;
+    width: 42vh;
+    height: 42vh;
+}
+.row-4 > img{
+    height: 0;
+}
+.row-4:hover > img{
+    margin-left: 26%;
+    width: 42vh;
+    height: 42vh;
+}
+.row-4:hover > img{
+    display: inline;
+    margin-left: 26%;
+    width: 42vh;
+    height: 42vh;
+}
+.row-4:hover > .plus{
+    visibility: hidden;
+}
+.row-4:hover >.tape{
+    position: absolute;
+    z-index: 21;
+    margin-left: 1030px;
+    margin-top: 20px;
+    width: 0; 
+    height: 0; 
+    border-width: 25px 15px 20px;
+    border-style: solid;
+    border-color: #E95557 #E95557 transparent;
+}
+.row-5 > img{
+    height: 0;
+  }
+.row-5:hover > img{
+    display: inline;
+    margin-left: 26%;
+    width: 42vh;
+    height: 42vh;
+}
+.row-5:hover > .plus{
+    visibility: hidden;
+}
+.row-5:hover >.tape{
+    position: absolute;
+    z-index: 21;
+    margin-left: 1030px;
+    margin-top: 20px;
+    width: 0; 
+    height: 0; 
+    border-width: 25px 15px 20px;
+    border-style: solid;
+    border-color: #E95557 #E95557 transparent;
+}
+.row-1,.row-2,.row-3,.row-4,.row-5{
+    position: relative;
+    cursor: pointer;
+    color: rgb(0, 81, 255);
+}
+.row-1{
+    color: black;
+}
+.row-2:hover{
+    color: black;
+}
+.row-3:hover{
+    color: black;
+}
+.row-4:hover{
+    color: black;
+}
+.row-5:hover{
+    color: black;
+}
+.row-1 > .tape {
+    position: absolute;
+    z-index: 21;
+    margin-left: 1030px;
+    margin-top: 5px;
+    width: 0; 
+    height: 0; 
+    border-width: 25px 15px 20px;
+    border-style: solid;
+    border-color: #E95557 #E95557 transparent;
+  }
+.row-2 > .plus{
+    position: absolute;
+    width:50px;
+    height:50px;
+    margin-left: 1020px;
+    margin-top: 20px;
+    z-index: 1;
+    background:
+      linear-gradient(#000,#000),
+      linear-gradient(#000,#000),
+      whitesmoke;
+    background-position:center;
+    background-size: 50% 4px,4px 50%; 
+    background-repeat:no-repeat;
+}
+.row-3 > .plus{
+        position: absolute;
+        width:50px;
+        height:50px;
+        margin-left: 1020px;
+        margin-top: 15px;
+        z-index: 1;
+        background:
+          linear-gradient(#000,#000),
+          linear-gradient(#000,#000),
+          whitesmoke;
+        background-position:center;
+        background-size: 50% 4px,4px 50%; 
+        background-repeat:no-repeat;
+ }
+ .row-4 > .plus{
+    position: absolute;
+    width:50px;
+    height:50px;
+    margin-left: 1020px;
+    margin-top: 20px;
+    z-index: 1;
+    background:
+      linear-gradient(#000,#000),
+      linear-gradient(#000,#000),
+      whitesmoke;
+    background-position:center;
+    background-size: 50% 4px,4px 50%; 
+    background-repeat:no-repeat;
+    }
+ .row-5 > .plus{
+    position: absolute;
+    width:50px;
+    height:50px;
+    margin-left: 1020px;
+    margin-top: 15px;
+    z-index: 1;
+    background:
+      linear-gradient(#000,#000),
+      linear-gradient(#000,#000),
+      whitesmoke;
+    background-position:center;
+    background-size: 50% 4px,4px 50%; 
+    background-repeat:no-repeat;
+ }
+ .row-1:active > img{
+    height: 0;
+    transition: 0.4s;
+ }
+ .row-1:active{
+    color: rgb(0, 81, 255);
+ }
+ .row-2:active{
+    transition: 0.4s;
+ }
+ .row-3:active{
+    transition: 0.4s;
+ }
+ .row-4:active{
+    transition: 0.4s;
+ }
+ .row-5:active{
+    transition: 0.4s;
+ }
+ 
