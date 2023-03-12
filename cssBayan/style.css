@@ -26,26 +26,16 @@
     50%{transform:rotate(-135deg)}
     100%{transform:rotate(-225deg)}
 }
-@keyframes pic{
-    50%{transition-duration: 0.5s;}
-    100%{transition-duration: 1s;}
-}
 
-
-
-
-.row-1 > img{
-    
+.row-1 > img{  
     display: inline;
     margin-left: 26%;
     width: 42vh;
     height: 42vh;
-    
 }
 .row-2 > img{
     display: none;
 }
-
 .row-2:hover > img{
     display: inline;
     margin-left: 26%;
@@ -86,9 +76,6 @@
     border-style: solid;
     border-color: #E95557 #E95557 transparent;
 }
-
-
-
 .row-3 > img{
     display: none;
 }
@@ -169,7 +156,6 @@
     cursor: pointer;
     color: rgb(0, 81, 255);
 }
-
 .row-1{
     color: black;
 }
@@ -185,7 +171,6 @@
 .row-5:hover{
     color: black;
 }
-
 .row-1 > .tape {
     position: absolute;
     z-index: 21;
@@ -267,15 +252,12 @@
  .row-2:active{
     transition: 0.4s;
  }
-
  .row-3:active{
     transition: 0.4s;
  }
-
  .row-4:active{
     transition: 0.4s;
  }
-
  .row-5:active{
     transition: 0.4s;
  }
